@@ -1,0 +1,103 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="text_size_large">20sp</dimen>
+    <dimen name="text_size_normal">16sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+
+
+    <!-- font sizes -->
+    <dimen name="font_xxxlarge">30sp</dimen>
+    <dimen name="font_xxlarge">24sp</dimen>
+    <dimen name="font_xlarge">20sp</dimen>
+    <dimen name="font_large">16sp</dimen>
+    <dimen name="font_normal">14sp</dimen>
+    <dimen name="font_small">12sp</dimen>
+    <dimen name="font_xsmall">10sp</dimen>
+
+    <!-- typical spacing between two views -->
+    <dimen name="spacing_huge">60dp</dimen>
+    <dimen name="spacing_xlarge">40dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+    <dimen name="spacing_medium">20dp</dimen>
+    <dimen name="spacing_normal">14dp</dimen>
+    <dimen name="spacing_small">10dp</dimen>
+    <dimen name="spacing_xsmall">8dp</dimen>
+    <dimen name="spacing_tiny">4dp</dimen>
+    <dimen name="spacing_very_tiny">2dp</dimen>
+
+    <!-- typical sizes of views -->
+    <dimen name="button_height_tall">60dp</dimen>
+    <dimen name="button_height_normal">40dp</dimen>
+    <dimen name="button_height_short">35dp</dimen>
+    <dimen name="button_height_small">24dp</dimen>
+
+    <!--met editext-->
+    <dimen name="default_padding_top">8dp</dimen>
+    <dimen name="default_padding_bottom">8dp</dimen>
+    <dimen name="inner_padding_left">0dp</dimen>
+    <dimen name="inner_padding_right">0dp</dimen>
+    <dimen name="floating_label_text_size">12sp</dimen>
+    <dimen name="bottom_text_size">12sp</dimen>
+    <dimen name="inner_components_spacing">8dp</dimen>
+    <dimen name="bottom_ellipsis_height">4dp</dimen>
+    <dimen name="post_image_height">250dp</dimen>
+    <dimen name="empty_nav_view_height">25dp</dimen>
+
+    <!--padding and margin-->
+    <dimen name="padiing_right_of_header">40dp</dimen>
+    <dimen name="margin_top_of_header">12dp</dimen>
+    <dimen name="margin_bottom_of_custom_layout">8dp</dimen>
+    <dimen name ="search_layout">20dp</dimen>
+    <dimen name="search_layout_width">1dp</dimen>
+    <dimen name="margin_search_layout">4dp</dimen>
+    <dimen name="padding_search_layout">4dp</dimen>
+
+
+    <dimen name="card_corner_radius">8dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="text_view_max_height">40dp</dimen>
+
+    <dimen name="toolbar_height">40dp</dimen>
+
+
+    <dimen name="grid_side_length">120dp</dimen>
+    <dimen name="zero_dimen">0dp</dimen>
+
+    <dimen name="margin_left_very_small">8dp</dimen>
+    <dimen name="margin_left_small">16dp</dimen>
+    <dimen name="margin_left_medium">24dp</dimen>
+    <dimen name="margin_left_large">32dp</dimen>
+    <dimen name="margin_top_very_small">4dp</dimen>
+    <dimen name="margin_top_small">8dp</dimen>
+    <dimen name="margin_top_medium">16dp</dimen>
+    <dimen name="margin_top_large">32dp</dimen>
+    <dimen name="margin_top_xtra_large">60dp</dimen>
+    <dimen name="margin_bet_lay">28dp</dimen>
+
+    <dimen name="padding_very_small">4dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_high">24dp</dimen>
+    <dimen name="elevation">6dp</dimen>
+
+    <!-- Pill shape buttons>-->
+    <dimen name="pill_button_corner_radius">30dp</dimen>
+    <dimen name="pill_button_corner_radius_small">10dp</dimen>
+    <dimen name="pill_button_height">32dp</dimen>
+    <dimen name="pill_button_width">88dp</dimen>
+    <dimen name="pill_button_radius">60dp</dimen>
+    <!-- Circular Image>-->
+    <dimen name="circular_image_side">64dp</dimen>
+    <dimen name="circular_image_side_large">112dp</dimen>
+    <dimen name="circular_image_border_width">1dp</dimen>
+    <dimen name="discover_frame_height">40dp</dimen>
+    <dimen name="discover_frame_height_grid">24dp</dimen>
+
+    <dimen name="square_button_width">@dimen/pill_button_width</dimen>
+    <dimen name="square_button_height">34dp</dimen>
+    <dimen name="seperator">1dp</dimen>
+    <dimen name="searchbar_max_height">48dp</dimen>
+    <dimen name="grid_layout_margin">2dp</dimen>
+</resources>

@@ -1,0 +1,144 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="match_wrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="wrap_content">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="match_parent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="custom_header">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/font_xxlarge</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/margin_top_of_header</item>
+        <item name="android:paddingRight">@dimen/padiing_right_of_header</item>
+    </style>
+<style name="custom_toolbar_textview">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textColor">@color/text_color</item>
+    <item name="android:textSize">@dimen/font_normal</item>
+    <item name="android:layout_weight">1</item>
+    <item name="android:gravity">center</item>
+    <item name="android:layout_marginBottom">@dimen/margin_bottom_of_custom_layout</item>
+  </style>
+  <style name="et_search_layout">
+      <item name="android:layout_width">match_parent</item>
+      <item name="android:layout_height">wrap_content</item>
+      <item name="android:padding">@dimen/default_padding_top</item>
+      <item name="android:layout_weight">1</item>
+      <item name="android:layout_margin">@dimen/padding_search_layout</item>
+        <item name="android:textSize">@dimen/font_large</item>
+      <item name="android:drawablePadding">@dimen/padding_search_layout</item>
+  </style>
+    <style name="FitScreen">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Toolbaritem">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/font_xsmall</item>
+
+    </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/trans_background</item>
+        <item name="colorControlActivated">#f6a623</item>
+    </style>
+
+    <style name="TextView">
+        <item name="android:textSize">@dimen/text_size_normal</item>
+        <item name="android:textColor">#202020</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/margin_top_small</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="RoundedTextViewDark" parent="@style/RoundedTextViewPrimary">
+        <item name="android:background">@drawable/shape_pill_dark</item>
+    </style>
+
+    <style name="RoundedTextViewSecondary" parent="@style/RoundedTextViewPrimary">
+        <item name="android:background">@drawable/shape_pill_secondary</item>
+    </style>
+
+    <style name="RoundedLeftTextView" parent="@style/RoundedTextViewPrimary">
+        <item name="android:background">@drawable/shape_pill_left_rounded</item>
+    </style>
+
+    <style name="RoundedLeftTextViewLight" parent="@style/RoundedTextViewPrimary">
+        <item name="android:background">@drawable/shape_pill_left_rounded_unselected</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="RoundedRightTextView" parent="@style/RoundedTextViewPrimary">
+        <item name="android:background">@drawable/shape_pill_right_rounded</item>
+    </style>
+
+    <style name="RoundedRightTextViewLight" parent="@style/RoundedTextViewPrimary">
+        <item name="android:background">@drawable/shape_pill_right_rounded_unselected</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="RectangleTextViewLight" parent="@style/RoundedTextViewPrimary">
+        <item name="android:background">@drawable/shape_rectangle_unselected</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="RectangleTextViewDark" parent="@style/RoundedTextViewPrimary">
+        <item name="android:background">@drawable/shape_rectangle</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="RoundedCornerTextView" parent="@style/RoundedTextViewPrimary">
+        <item name="android:background">@drawable/shape_pill_rounded_corner</item>
+    </style><!-- Bottom Navigation TextViews-->
+    <style name="BottomNavigationTextView">
+
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:clickable">true</item>
+        <item name="android:paddingTop">@dimen/padding_small</item>
+        <item name="android:paddingBottom">@dimen/padding_small</item>
+        <item name="android:background">@drawable/selector_background</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>EdiTextMyProfile
+
+    <style name="EdiTextMyProfile">
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:inputType">none</item>
+        <item name="android:textColorHint">@color/background_light</item>
+    </style>
+    <style name="RoundedTextViewPrimary" parent="@style/TextView">
+        <item name="android:background">@drawable/shape_pill_primary</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:padding">@dimen/padding_small</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>

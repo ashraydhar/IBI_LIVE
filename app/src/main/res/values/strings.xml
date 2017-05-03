@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Zeplin</string>
+    <string name="discover">Discover</string>
+    <string name="map">Map</string>
+    <string name="my_post">My Posts</string>
+    <string name="request">Requests</string>
+    <string name="my_network">My Network</string>
+    <string name="search_bar">  Where do you like to connect?</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_networks_view">Map</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_ready_made_maps">Map</string>
+    <string name="title_activity_maps">Current Place Details</string>
+    <string name="default_info_title">Default Location</string>
+    <string name="default_info_snippet">No places found, because location permission is disabled.</string>
+    <string name="option_get_place">Get place</string>
+    <string name="pick_place">Choose a place</string>
+    <string name="title_location_permission">GPS Permission</string>
+    <string name="text_location_permission">GPS is required to be enabled for this section to get your location</string>
+    <string name="ok">OK</string>
+    <string name="accept">Accept</string>
+    <string name="reject">Reject</string>
+    <string name="show_on_map">Show On Map</string>
+    <string name="dummy_data_discover">Explore Paris</string>
+    <string name="dummy_data_city_name">Paris</string>
+    <string name="dummy_data_name">John</string>
+    <string name="dummy_data_duration">6d 2h left</string>
+    <string name="dummy_data_review">222 Reviews</string>
+    <string name="dummy_data_text">Lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur lorem ipsum.</string>
+    <string name="send_request">Send Request</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_discover">Discover</string>
+    <string name="title_map">Map</string>
+    <string name="title_my_posts">My Posts</string>
+    <string name="title_posts">Posts</string>
+    <string name="title_requests">Requests</string>
+    <string name="title_my_network">My Network</string>
+
+    <string name="search_bar_hint_discover">Where would you like to connect?</string>
+    <string name="search_bar_hint_map">Location</string>
+    <string name="search_bar_hint_posts">Search</string>
+
+    <string name="connect">Connect</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_cards">Cards/Subscription</string>
+    <string name="menu_support">Support</string>
+    <string name="menu_myreq">My Requests</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_logout">Logout</string>
+    <string name="dummy_data_rating">2.4</string>
+    <string name="title_network">Network</string>
+    <string name="dummy_data_address">1097, St. Peters Street,CA</string>
+    <string name="change_pass">Change Password</string>
+</resources>
