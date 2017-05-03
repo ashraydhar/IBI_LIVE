@@ -20,7 +20,7 @@ import java.util.ArrayList;
  * Created by mark63 on 29/4/17.
  */
 
-public class DiscoverAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> implements AppConstants{
+public class DiscoverAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> implements AppConstants {
     private ArrayList<ModelDiscover> modelDiscoverArrayList;
     private static int MODE = -1;
     private ImageView imageView;
@@ -29,7 +29,7 @@ public class DiscoverAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
     /**
      * @param modelDiscoverArrayList array list is created
      */
-    public DiscoverAdapter(final ArrayList<ModelDiscover> modelDiscoverArrayList,int mode) {
+    public DiscoverAdapter(final ArrayList<ModelDiscover> modelDiscoverArrayList, int mode) {
         this.modelDiscoverArrayList = modelDiscoverArrayList;
         this.MODE = mode;
     }
@@ -37,7 +37,7 @@ public class DiscoverAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(final ViewGroup parent, final int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.fragment_discover, parent, false);
-        ViewHolder viewHolder = new ViewHolder(view,MODE);
+        ViewHolder viewHolder = new ViewHolder(view, MODE);
         return viewHolder;
     }
 
@@ -75,16 +75,14 @@ public class DiscoverAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
             tvTitle = (TextView) itemView.findViewById(R.id.tvTitle);
 
 
-            if(val == DEFAULT_MODE) {
+            if (val == DEFAULT_MODE) {
 
                 ImageView visible2 = (ImageView) itemView.findViewById(R.id.visible2);
                 visible2.setVisibility(View.GONE);
                 ImageView visible3 = (ImageView) itemView.findViewById(R.id.visible3);
                 visible3.setVisibility(View.GONE);
 
-            }
-
-            else if(val == POST_MODE){
+            } else if (val == POST_MODE) {
 
                 ImageView invisible1 = (ImageView) itemView.findViewById(R.id.invisible1);
                 invisible1.setVisibility(View.INVISIBLE);
@@ -106,13 +104,7 @@ public class DiscoverAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
             }
 
 
-
         }
-
-
-
-
-
 
 
     }

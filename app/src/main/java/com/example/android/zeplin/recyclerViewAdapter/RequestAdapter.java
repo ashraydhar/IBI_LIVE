@@ -3,6 +3,7 @@ package com.example.android.zeplin.recyclerViewAdapter;
 /**
  * Created by dell on 03-May-17.
  */
+
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;

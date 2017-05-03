@@ -34,7 +34,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginTop="0dp"
-                    android:text="@string/dummy_data_name" />
+                    android:text="SherDil" />
 
 
                 <android.support.v7.widget.AppCompatRatingBar
@@ -68,7 +68,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/linear"
-                android:layout_toRightOf="@+id/item_request_tv_address"
+                android:layout_toEndOf="@+id/item_request_tv_address"
                 android:padding="@dimen/padding_small"
                 android:text="@string/show_on_map"
                 android:textSize="10sp" />
@@ -117,24 +117,26 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/cardView"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="-16dp"
+        android:layout_marginTop="-26dp"
         android:elevation="@dimen/elevation">
 
-        <TextView
+        <ImageButton
             android:id="@+id/item_request_tv_accept"
             style="@style/RoundedTextViewPrimary"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="12dp"
-            android:text="@string/accept" />
+            android:background="@drawable/shape_button_background"
+            android:src="@drawable/accept" />
 
-        <TextView
+        <ImageButton
             android:id="@+id/item_request_tv_reject"
             style="@style/RoundedTextViewSecondary"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="12dp"
-            android:text="@string/reject" />
+            android:background="@drawable/shape_button_background"
+            android:src="@drawable/reject" />
 
     </LinearLayout>
 

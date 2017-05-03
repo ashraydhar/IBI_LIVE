@@ -5,18 +5,18 @@
     android:orientation="vertical">
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/search_bar_layout"
         style="@style/match_wrap"
-        android:orientation="horizontal"
         android:background="@color/search_bar_background"
-        android:padding="@dimen/margin_search_layout"
-        android:id="@+id/search_bar_layout">
+        android:orientation="horizontal"
+        android:padding="@dimen/margin_search_layout">
 
         <EditText
-            android:layout_weight="1"
             style="@style/et_search_layout"
+            android:layout_weight="1"
+            android:background="@drawable/search_bar_layout"
             android:drawableLeft="@drawable/location_icon_small_2"
-            android:hint="Location"
-            android:background="@drawable/search_bar_layout" />
+            android:hint="Location" />
 
 
     </LinearLayout>

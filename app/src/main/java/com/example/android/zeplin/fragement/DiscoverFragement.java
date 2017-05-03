@@ -40,10 +40,10 @@ public class DiscoverFragement extends Fragment {
 
     @Nullable
     @Override
-    public View onCreateView(final LayoutInflater inflater, @Nullable final ViewGroup container,final Bundle savedInstanceState) {
+    public View onCreateView(final LayoutInflater inflater, @Nullable final ViewGroup container, final Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.recycle_view_discover, container, false);
 
-        if(flag == 0) {
+        if (flag == 0) {
             ModelDiscover modelClass0 = new ModelDiscover(R.drawable.taj_mahal, "Taj Mahal incorporates and expands on design traditions of Persian and earlier Mughal architecture");
             modelDiscoverArrayList.add(modelClass0);
 
@@ -56,10 +56,9 @@ public class DiscoverFragement extends Fragment {
             modelDiscoverArrayList.add(modelClass2);
 
 
-
             flag = 1;
-       }
-        DiscoverAdapter discoverAdapter = new DiscoverAdapter(modelDiscoverArrayList,getArguments().getInt("DEFAULT_MODE"));
+        }
+        DiscoverAdapter discoverAdapter = new DiscoverAdapter(modelDiscoverArrayList, getArguments().getInt("DEFAULT_MODE"));
         recyclerView = (RecyclerView) view.findViewById(R.id.rvItems);
         recyclerView.setLayoutManager(new LinearLayoutManager(view.getContext()));
         recyclerView.setAdapter(discoverAdapter);

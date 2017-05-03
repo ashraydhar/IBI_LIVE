@@ -17,8 +17,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:src="@drawable/discover_icon"
-            android:paddingTop="5dp"/>
+            android:paddingTop="5dp"
+            android:src="@drawable/discover_icon" />
 
         <TextView
             android:id="@+id/tv_discover"
@@ -42,8 +42,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:src="@drawable/map"
-            android:paddingTop="5dp"/>
+            android:paddingTop="5dp"
+            android:src="@drawable/map" />
 
         <TextView
             android:id="@+id/tv_map"
@@ -67,8 +67,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:src="@drawable/my_post"
-            android:paddingTop="5dp"/>
+            android:paddingTop="5dp"
+            android:src="@drawable/my_post" />
 
         <TextView
             android:id="@+id/tv_myPost"
@@ -92,8 +92,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:src="@drawable/discover_icon"
-            android:paddingTop="5dp"/>
+            android:paddingTop="5dp"
+            android:src="@drawable/discover_icon" />
 
         <TextView
             android:id="@+id/tv_request"
@@ -117,8 +117,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:src="@drawable/my_network"
-            android:paddingTop="5dp"/>
+            android:paddingTop="5dp"
+            android:src="@drawable/my_network" />
 
         <TextView
             android:id="@+id/tv_myNetwork"

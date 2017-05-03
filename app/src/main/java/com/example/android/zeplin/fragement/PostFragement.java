@@ -38,6 +38,7 @@ public class PostFragement extends Fragment {
 
         return frag;
     }
+
     @Nullable
     @Override
     public View onCreateView(final LayoutInflater inflater, @Nullable final ViewGroup container, @Nullable final Bundle savedInstanceState) {
