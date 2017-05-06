@@ -52,4 +52,17 @@
     <string name="title_network">Network</string>
     <string name="dummy_data_address">1097, St. Peters Street,CA</string>
     <string name="change_pass">Change Password</string>
+    <string name="sher_dil">Sher Dil</string>
+    <string name="india">INDIA</string>
+    <string name="home">Home</string>
+    <string name="Support">Support</string>
+    <string name="MyRequests">My Requests</string>
+    <string name="Share">Share</string>
+    <string name="Logout">Logout</string>
+    <string name="CardsSubscribing">Cards/Subscribing</string>
+    <string name="ExploreIndia">Explore India</string>
+    <string name="timeLeft">6d 2h left</string>
+    <string name="location">Location</string>
+    <string name="connnect">Connect</string>
+    <string name="reviews">222 Reviews</string>
 </resources>

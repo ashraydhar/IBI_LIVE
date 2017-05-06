@@ -6,7 +6,7 @@
     android:background="@color/background_light"
     android:gravity="center"
     android:orientation="horizontal"
-    android:paddingTop="15dp">
+    android:paddingTop="@dimen/fifteendp">
 
     <TextView
         android:layout_width="wrap_content"

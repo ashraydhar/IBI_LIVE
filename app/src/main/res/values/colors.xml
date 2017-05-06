@@ -13,6 +13,10 @@
     <color name="colorReject">#d0011b</color>
     <color name="colorTextPrimary">#202020</color>
     <color name="colorItemSelected">#4caea9</color>
+    <color name="black">#111</color>
+    <color name="civBorderColor">#ff000000</color>
+    <color name="translucentBlack">#65111111</color>
+    <color name="viewBackground">#B33a4245</color>
     <drawable name="semitransparent_white">@color/colorItemSelected</drawable>
 
 </resources>

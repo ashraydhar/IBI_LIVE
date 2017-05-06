@@ -1,4 +1,4 @@
-package com.example.android.zeplin;
+package com.zeplin;
 
 import org.junit.Test;
 

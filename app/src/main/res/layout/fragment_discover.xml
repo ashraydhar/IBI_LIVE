@@ -6,9 +6,9 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_gravity="center"
-    android:paddingLeft="0dp"
-    android:paddingRight="0dp"
-    card_view:cardCornerRadius="4dp">
+    android:paddingStart="@dimen/zerodp"
+    android:paddingEnd="@dimen/zerodp"
+    card_view:cardCornerRadius="@dimen/fourdp">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -20,16 +20,16 @@
             android:layout_height="match_parent">
 
             <ImageView
-                android:id="@+id/imgTaj"
+                android:id="@+id/itemdiscover_imgTaj"
                 android:layout_width="match_parent"
-                android:layout_height="250dp"
+                android:layout_height="@dimen/twofiftydp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/taj_mahal" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:background="#65111111"
+                android:layout_height="@dimen/thirtydp"
+                android:background="@color/translucentBlack"
                 android:orientation="horizontal">
 
                 <TextView
@@ -37,44 +37,45 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentStart="true"
                     android:layout_gravity="center"
-                    android:padding="5dp"
-                    android:text="Explore India"
+                    android:padding="@dimen/fivedp"
+                    android:text="@string/ExploreIndia"
                     android:textColor="@color/text_color"
-                    android:textSize="17sp" />
+                    android:textSize="@dimen/seventeensp" />
 
                 <TextView
-                    android:id="@+id/invisible4"
+                    android:id="@+id/itemdiscover_invisible4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
                     android:layout_gravity="center"
-                    android:drawablePadding="5dp"
+                    android:drawablePadding="@dimen/fivedp"
                     android:drawableStart="@drawable/location_icon"
-                    android:padding="5dp"
-                    android:paddingEnd="15dp"
-                    android:paddingStart="0dp"
-                    android:text="India"
-                    android:textColor="@color/text_color" />
+                    android:padding="@dimen/fivedp"
+                    android:paddingEnd="@dimen/fifteendp"
+                    android:paddingStart="@dimen/zerodp"
+                    android:text="@string/india"
+                    android:textColor="@color/text_color"
+                    android:visibility="visible"/>
 
                 <ImageView
-                    android:id="@+id/visible2"
+                    android:id="@+id/itemdiscover_visible2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignStart="@id/invisible4"
-                    android:layout_alignTop="@id/invisible4"
+                    android:layout_alignStart="@id/itemdiscover_invisible4"
+                    android:layout_alignTop="@id/itemdiscover_invisible4"
                     android:layout_gravity="center"
-                    android:padding="5dp"
+                    android:padding="@dimen/fivedp"
                     android:src="@drawable/icon_edit"
                     android:visibility="invisible" />
 
                 <ImageView
-                    android:id="@+id/visible3"
+                    android:id="@+id/itemdiscover_visible3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignEnd="@id/invisible4"
-                    android:layout_alignTop="@id/invisible4"
+                    android:layout_alignEnd="@id/itemdiscover_invisible4"
+                    android:layout_alignTop="@id/itemdiscover_invisible4"
                     android:layout_gravity="center"
-                    android:padding="5dp"
+                    android:padding="@dimen/fivedp"
                     android:src="@drawable/icon_trash"
                     android:visibility="invisible" />
 
@@ -83,14 +84,14 @@
             <FrameLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignBottom="@id/imgTaj"
-                android:layout_alignStart="@id/imgTaj"
-                android:paddingBottom="10dp"
-                android:paddingEnd="0dp"
-                android:paddingStart="22dp">
+                android:layout_alignBottom="@id/itemdiscover_imgTaj"
+                android:layout_alignStart="@id/itemdiscover_imgTaj"
+                android:paddingBottom="@dimen/tendp"
+                android:paddingEnd="@dimen/zerodp"
+                android:paddingStart="@dimen/twentytwodp">
 
                 <Switch
-                    android:id="@+id/visible1"
+                    android:id="@+id/itemdiscover_visible1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:visibility="invisible" />
@@ -99,31 +100,33 @@
             <FrameLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignBottom="@id/imgTaj"
-                android:layout_alignEnd="@id/imgTaj"
-                android:padding="12dp">
+                android:layout_alignBottom="@id/itemdiscover_imgTaj"
+                android:layout_alignEnd="@id/itemdiscover_imgTaj"
+                android:padding="@dimen/twelvedp">
 
                 <ImageView
-                    android:id="@+id/invisible3_1"
+                    android:id="@+id/itemdiscover_invisible3_1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/send_button" />
+                    android:src="@drawable/send_button"
+                    android:visibility="visible"/>
 
                 <TextView
-                    android:id="@+id/invisible3_2"
+                    android:id="@+id/itemdiscover_invisible3_2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="Send Request"
-                    android:textColor="@color/text_color" />
+                    android:text="@string/send_request"
+                    android:textColor="@color/text_color"
+                    android:visibility="visible"/>
             </FrameLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/imgTaj"
+                android:layout_below="@id/itemdiscover_imgTaj"
                 android:orientation="vertical"
-                android:padding="5dp">
+                android:padding="@dimen/fivedp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -132,24 +135,24 @@
 
                     <ImageView
                         android:id="@+id/invisible1"
-                        android:layout_width="52dp"
-                        android:layout_height="52dp"
+                        android:layout_width="@dimen/fiftytwodp"
+                        android:layout_height="@dimen/fiftytwodp"
                         android:src="@drawable/add_image_icon" />
 
                     <LinearLayout
-                        android:id="@+id/invisible2"
+                        android:id="@+id/itemdiscover_invisible2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:orientation="vertical"
-                        android:paddingEnd="0dp"
-                        android:paddingStart="0dp">
+                        android:paddingEnd="@dimen/zerodp"
+                        android:paddingStart="@dimen/zerodp">
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Sher Dil"
-                            android:textColor="#111" />
+                            android:text="@string/sher_dil"
+                            android:textColor="@color/black" />
 
                         <RatingBar
                             style="?android:attr/ratingBarStyleSmall"
@@ -165,29 +168,29 @@
                         android:layout_height="wrap_content"
                         android:drawableStart="@drawable/time_1"
                         android:gravity="center"
-                        android:paddingEnd="0dp"
-                        android:paddingStart="8dp"
-                        android:text="6d 2h left"
-                        android:textColor="#111"
-                        android:textSize="12sp" />
+                        android:paddingEnd="@dimen/zerodp"
+                        android:paddingStart="@dimen/eightdp"
+                        android:text="@string/timeLeft"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/twelvesp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:drawableStart="@drawable/reviews"
                         android:gravity="center"
-                        android:paddingEnd="0dp"
-                        android:paddingStart="15dp"
-                        android:text="222 Reviews"
-                        android:textColor="#111"
-                        android:textSize="12sp" />
+                        android:paddingEnd="@dimen/zerodp"
+                        android:paddingStart="@dimen/fifteendp"
+                        android:text="@string/reviews"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/twelvesp" />
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/tvTitle"
+                    android:id="@+id/itemdiscover_tvTitle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textColor="#111" />
+                    android:textColor="@color/black" />
             </LinearLayout>
         </RelativeLayout>
     </LinearLayout>

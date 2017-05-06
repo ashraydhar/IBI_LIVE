@@ -15,8 +15,8 @@
             style="@style/et_search_layout"
             android:layout_weight="1"
             android:background="@drawable/search_bar_layout"
-            android:drawableLeft="@drawable/location_icon_small_2"
-            android:hint="Location" />
+            android:drawableStart="@drawable/location_icon_small_2"
+            android:hint="@string/location" />
 
 
     </LinearLayout>

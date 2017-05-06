@@ -11,7 +11,7 @@
         style="@style/et_search_layout"
         android:layout_weight="1"
         android:background="@drawable/search_bar_layout"
-        android:drawableLeft="@drawable/search_icon"
+        android:drawableStart="@drawable/search_icon"
         android:hint="@string/search_bar"
 
         />

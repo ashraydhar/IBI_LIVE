@@ -6,35 +6,35 @@
     android:orientation="vertical">
 
     <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/profile_image"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="10dp"
+        android:id="@+id/drawer_profile_image"
+        android:layout_width="@dimen/fiftydp"
+        android:layout_height="@dimen/fiftydp"
+        android:layout_marginStart="@dimen/tendp"
         android:src="@drawable/taj_mahal" />
 
     <TextView
-        android:id="@+id/user_name"
+        android:id="@+id/networks_user_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_toEndOf="@id/profile_image"
-        android:text="Sher Dil"
+        android:layout_marginStart="@dimen/tendp"
+        android:layout_toEndOf="@id/drawer_profile_image"
+        android:text="@string/sher_dil"
         android:textColor="@color/colorPrimary"
         android:textSize="@dimen/font_normal" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/user_name"
+        android:layout_below="@id/networks_user_name"
         android:layout_marginStart="@dimen/spacing_small"
-        android:layout_toEndOf="@id/profile_image"
+        android:layout_toEndOf="@id/drawer_profile_image"
         android:drawablePadding="@dimen/spacing_very_tiny"
         android:drawableStart="@drawable/icon_location"
-        android:text="India"
+        android:text="@string/india"
         android:textSize="@dimen/font_small" />
 
     <RatingBar
-        android:id="@+id/ratingbarnetwork"
+        android:id="@+id/networks_ratingbarnetwork"
         style="?android:attr/ratingBarStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -42,24 +42,24 @@
         android:theme="@style/RatingBar" />
 
     <TextView
-        android:id="@+id/btn_connect"
+        android:id="@+id/networks_btn_connect"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
-        android:layout_below="@+id/ratingbarnetwork"
+        android:layout_below="@+id/networks_ratingbarnetwork"
         android:layout_marginBottom="@dimen/spacing_small"
         android:layout_marginTop="@dimen/spacing_tiny"
         android:background="@drawable/circular_button"
         android:padding="@dimen/spacing_small"
-        android:text="Connect"
-        android:textColor="#fff"
+        android:text="@string/connnect"
+        android:textColor="@color/white"
         android:textSize="@dimen/font_normal" />
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_below="@id/btn_connect"
-        android:background="#B33a4245" />
+        android:layout_height="@dimen/seperator"
+        android:layout_below="@id/networks_btn_connect"
+        android:background="@color/viewBackground" />
 
 
 </RelativeLayout>

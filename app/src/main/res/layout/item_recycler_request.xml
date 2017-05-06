@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginBottom="5dp"
+    android:layout_marginBottom="@dimen/fivedp"
     android:background="@color/background_light"
     android:orientation="vertical">
 
@@ -11,7 +11,7 @@
         android:id="@+id/cardView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="@dimen/twentyeightdp"
         android:elevation="@dimen/card_elevation"
         app:cardCornerRadius="@dimen/card_corner_radius">
 
@@ -20,11 +20,11 @@
             android:layout_height="match_parent">
 
             <LinearLayout
-                android:id="@+id/linear"
+                android:id="@+id/drawer_linear"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="48dp"
+                android:layout_marginTop="@dimen/fortyeightdp"
                 android:orientation="horizontal">
 
                 <TextView
@@ -33,8 +33,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginTop="0dp"
-                    android:text="SherDil" />
+                    android:layout_marginTop="@dimen/zerodp"
+                    android:text="@string/sher_dil" />
 
 
                 <android.support.v7.widget.AppCompatRatingBar
@@ -43,7 +43,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginLeft="@dimen/margin_left_very_small"
+                    android:layout_marginStart="@dimen/margin_left_very_small"
                     android:isIndicator="true"
                     android:numStars="6"
                     android:stepSize="0.5" />
@@ -56,10 +56,10 @@
                 style="@style/TextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/linear"
+                android:layout_below="@+id/drawer_linear"
                 android:drawableStart="@drawable/location_icon_small"
                 android:maxHeight="@dimen/text_view_max_height"
-                android:maxWidth="168dp"
+                android:maxWidth="@dimen/onesixtyeightdp"
                 android:text="@string/dummy_data_address" />
 
             <TextView
@@ -67,11 +67,11 @@
                 style="@style/RoundedLeftTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/linear"
+                android:layout_below="@+id/drawer_linear"
                 android:layout_toEndOf="@+id/item_request_tv_address"
                 android:padding="@dimen/padding_small"
                 android:text="@string/show_on_map"
-                android:textSize="10sp" />
+                android:textSize="@dimen/tensp" />
 
             <TextView
                 android:id="@+id/item_request_tv_duration"
@@ -81,7 +81,7 @@
                 android:layout_below="@+id/item_request_tv_address"
                 android:drawableStart="@drawable/time_1"
                 android:maxHeight="@dimen/text_view_max_height"
-                android:maxWidth="168dp"
+                android:maxWidth="@dimen/onesixtyeightdp"
                 android:text="@string/dummy_data_duration" />
 
             <TextView
@@ -117,7 +117,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/cardView"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="-26dp"
+        android:layout_marginTop="@dimen/minustwentysixdp"
         android:elevation="@dimen/elevation">
 
         <ImageButton
@@ -125,7 +125,7 @@
             style="@style/RoundedTextViewPrimary"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="12dp"
+            android:layout_marginEnd="@dimen/twelvedp"
             android:background="@drawable/shape_button_background"
             android:src="@drawable/accept" />
 
@@ -134,7 +134,7 @@
             style="@style/RoundedTextViewSecondary"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="12dp"
+            android:layout_marginStart="@dimen/twelvedp"
             android:background="@drawable/shape_button_background"
             android:src="@drawable/reject" />
 
